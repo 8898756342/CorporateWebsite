@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Velocitai Digital</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">  
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+
+    <script>
+        $(function () {
+            $('#name').keydown(function (e) {
+                if (e.shiftKey || e.ctrlKey || e.altKey) {
+                    e.preventDefault();
+                } else {
+                    var key = e.keyCode;
+                    if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90))) {
+                        e.preventDefault();
+                    }
+                }
+            });
+        });
+        $(document).ready(function () {
+          $('#phone').keyup(function () { 
+          this.value = this.value.replace(/[^0-9\.]/g,'');
+      });
+         });
+        
+      </script>
+
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K6DG7XD');</script>
+    -->
+    <!-- <script type="text/javascript">
+        function validate1() {
+         var name = document.forms["myform"]["name"].value;
+         if(name==""){
+         alert("Please enter the name");
+         return false;
+         }
+         var email = document.forms["myform"]["email"].value;
+         if(email==""){
+         alert("Please enter the email");
+         return false;
+         }
+         
+         var x=document.myform.email.value;  
+        var atposition=x.indexOf("@");  
+        var dotposition=x.lastIndexOf(".");  
+        if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+          alert("Please enter a valid e-mail ");  
+          return false;  
+          }
+         var mobile = document.forms["myform"]["mobile"].value;
+         if(mobile==""){
+         alert("Please enter the mobile");
+         return false;
+         }else{
+         if(isNaN(mobile)){
+         alert("Mobile number not valid");
+         return false;
+         }
+         } 
+         var address = document.forms["myform"]["address"].value;
+         if(address==""){
+         alert("Please enter the address");
+         return false;
+         }
+        }
+        
+        </script> -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body >
+
+    <!-- LOADER 
+    <div id="preloader">
+        <div class="loader">
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__ball"></div>
+		</div>
+    </div> end loader -->
+    <!-- END LOADER -->
+    
+	
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                       
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+						<li><a class="active" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner-area banner-bg-7">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="banner">
+						<h2  style="text-align: center;">Contact Us</h2>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- <div class=" message-box banner-bg-about-products2"  style="background-image: url(./uploads/Background-Image.png)">
+        <div class="section-title text-center">
+           
+        
+        </div>
+
+       
+    </div>  -->
+
+    <br>
+
+    <div id="contact" class="section wb">
+        <div class="container">
+            <!-- end title -->
+
+            <!-- <form class="contact-form" id="contact" method="post" action="https://devs.ehc.co.uk/DEV/mail.php">
+                <div class="form_control"><input type="text" id="name" name="name" placeholder=" Name" required></div>
+                <div class="form_control"><input type="email" id="email" name="email" placeholder="Enter your email" required></div>
+                <div class="form_control"><input type="tel" pattern="[0-9]*" id="phone" name="phone"  minlength="10" placeholder="Enter your Phone No." maxlength="10"  required></div>
+                <div class="form_control"><select id="offerings" name="offerings">
+                    <option value="IT Consulting">IT Consulting</option>
+                    <option value="Enterprise Development & Support">Enterprise Development & Support</option>
+                    <option value="Product Engineering">Product Engineering</option>
+                    <option value="Digital Enterprise Services">Digital Enterprise Services</option>
+                    <option value="eCommerce Technology Development">eCommerce Technology Development</option>
+                    <option value="Managed IT Services">Managed IT Services</option>
+              </select></div>
+              <div class="form_control"><textarea id="message" name="message" placeholder="Write something.." required></textarea></div>
+              <div class="submit"><button type="submit" class="action" id="send2">Get In Touch</button></div>
+              </form>  -->
+            
+             <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="contact_form">
+                         
+                                            <form  method="POST" action="contact.php">
+                                            <input type="text" class="form-control"  id="name"  placeholder=" Name" name="name" required>
+                                            <input type="email" id="email" class="form-control" name="email" placeholder="Enter your email" required>
+                                            <input type="tel" class="form-control" pattern="[0-9]*" id="phone" name="phone"  minlength="10" placeholder="Enter your Phone No." maxlength="10"  required>
+                                           
+                                        <textarea id="message" name="message" class="form-control" placeholder="Write something.." required></textarea>
+                                   <button type="submit"   name="submit"  style=" border:white 2px solid; padding: 13px 40px; font-size: 18px;background: #fd6802; color: white;">Get In Touch</button>
+                                <br>         
+
+                            
+<!--         
+                                    <div class="fcf-form-group">
+                                       
+                                        <div class="fcf-input-group">
+                                            <input type="text" id="Name" name="Name" class="form-control"  placeholder=" Name" required >
+                                        </div>
+                                    </div>
+
+                            
+                                    <div class="fcf-form-group">
+                                        
+                                        <div class="fcf-input-group">
+                                            <input type="email" id="Email" name="Email" class="form-control"  placeholder="Enter your email" required >
+                                 
+                                    </div>
+                                    </div>
+
+                                    <div class="fcf-form-group">
+                                       
+                                        <div class="fcf-input-group">
+                                            <input type="tel" class="form-control" pattern="[0-9]*" id="phone" name="phone"  minlength="10" placeholder="Enter your Phone No." maxlength="10"  required>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="fcf-form-group">
+                                    
+                                        <div class="fcf-input-group">
+                                            <textarea id="message" name="message" class="form-control" placeholder="Write something.." required></textarea>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="fcf-form-group">
+                                        <button type="submit" class="action "  id="send2" style=" border:white 2px solid; padding: 13px 40px; font-size: 18px;background: #fd6802; color: white;">Get In Touch</button>
+                                    </div> -->
+
+
+
+                                    <!-- <form action="contact.php" id="form" method="post" name="form">
+                                        <input name="vname" placeholder="Your Name" class="form-control" type="text" value="">
+                                        <input name="vemail"class="form-control" placeholder="Your Email" type="text" value="">
+                                        <input name="sub" class="form-control" placeholder="Subject" type="text" value="">
+                                        
+                                        <textarea name="msg" class="form-control" placeholder="Type your text here..."></textarea>
+                                        <button type="submit" class="action "  id="send2" style=" border:white 2px solid; padding: 13px 40px; font-size: 18px;background: #fd6802; color: white;">Get In Touch</button>  
+                                    </form>
+ -->
+
+
+            
+
+
+
+                              
+                                <br>
+                  
+                  
+                    </div>
+                </div> 
+             </div>
+            
+            </div>
+           </div>
+           <div class="container">
+               <div class="main1212" > 
+          
+           <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.407880462075!2d77.05682420428379!3d28.440921663702337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d189b4fe5c1d3%3A0xf0798b584200574f!2sVelocitai%20Digital%20Private%20Limited!5e0!3m2!1sen!2sin!4v1632477049110!5m2!1sen!2sin" width="900" height="200" style="border:0; position: relative; left: 10%; " allowfullscreen="" loading="lazy"></iframe>
+                </iframe>-->
+           
+            </div>
+        </div>
+<div class="maihuna">
+           <div class="container "  >
+                    
+            <div class="address-item">
+               
+             <i class="fa fa-envelope" aria-hidden="true"></i>
+             <a href="mailto:info@velocitai.com">  <p>info@velocitai.com</p></a>
+            </div>
+            
+            <div class="address-item">
+                <i class="icon icon-headphones"></i>
+                <a href=”tel:+91-124-436-2900″> <p>+91-124-436-2900</p></a>
+        
+            </div>
+    </div>
+    
+</div>      
+<br>
+<div class="container"> <hr class="hr1"></div>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title" >
+                        <h3>Follow Us </h3>
+                        <br>
+
+                        <div class="social-footer" >
+                           
+                          <span style="margin-left: 8px;"></span><a href="https://www.linkedin.com/company/velocitaidigital/?viewAsMember=true" target="_blank"><img src="uploads/Linkedin.png"></a></span>
+                           <span style="margin-right: 10px;margin-left: 10px;"><a href="https://twitter.com/velocitai" target="_blank"><img src="uploads/Twitter.png"></a></span>
+                            <span> </span><a href="https://www.facebook.com/velocitai" target="_blank" ><img src="uploads/Facebook.png"></a> </span>
+                        </span>
+                
+                            </div><br>
+                             <span><img src="images/logos/Nasscom-2.png"  alt="" /></span> 
+                       <span></span> <img src="images/logos/Iso-2.png" alt="" />
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                <div class="widget clearfixstyle="margin-left: 34px;">
+                    <div class="widget-title" >
+                       <h3>Quick Links</h3>
+                    </div>
+
+                    <ul class="footer-links hov">
+                        <li><a href="index.html">Home <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="services.html">Our Services <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="industries.html">Industries <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="about.html">About Us <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="products.html">Product <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="careers.html">Careers <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="blog.html">Blog <span class="icon icon-arrow-right2"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title">
+                        <h3>Our Services</h3>
+                    </div>
+
+                 
+                    <ul class="footer-links hov">
+                        <li><a href="services.html">RF Planning and Network Optimization <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="ip_operation.html">IP Operations <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="digital_transformation.html">Enterprise Development and Support<span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="eCommmerce-tech.html">eCommerce Technology <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="digital_monitization.html">Digital Monetization <span class="icon icon-arrow-right2"></span></a></li>
+                        <li><a href="product_enginnering.html">Product Engineering <span class="icon icon-arrow-right2"></span></a></li>
+                       
+                        <li><a href="staffing.html">Staffing <span class="icon icon-arrow-right2"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            
+            
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                <div class="footer-distributed widget clearfix">
+                    <div class="widget-title ">
+                        <h3>Contact Us</h3>
+                        <p style="font-size: 14px;">Tower-C, 10th Floor, Unit 1002-1003, Unitech Cyber Park, Sector 39, Gurugram, Haryana 122001.</p>
+                        <p style="font-size: 14px;">Call Us : (+91) 124 436 2900</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.407880462075!2d77.05682420428379!3d28.440921663702337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d189b4fe5c1d3%3A0xf0798b584200574f!2sVelocitai%20Digital%20Private%20Limited!5e0!3m2!1sen!2sin!4v1632477049110!5m2!1sen!2sin" style="border: 0px;"></iframe>
+                    </div>
+                    
+                                       
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="copyrights">
+    
+        <div class="footer-distributed">
+            <div class="footer-left">                   
+                <p class="footer-company-name">Copyright &copy;  <a href="index.html">Velocitai Digital Private Limited</a>
+                </p>
+            </div>
+
+            
+        </div>
+    
+</div>
+
+<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+
+ 
+<script src="js/all.js"></script>
+
+<script src="js/custom.js"></script>
+<script src="js/portfolio.js"></script>
+<script src="js/hoverdir.js"></script>   
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>   
+
+</body>
+</html>
